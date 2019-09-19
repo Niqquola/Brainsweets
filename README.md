@@ -17,3 +17,8 @@ Step 5: N (7) is less than or equal to the number of answers remaining in the se
 [5, 4, 4, 2, 1, 1, 1] - After step 6, subtracting 1 from each of the first 7 answers (which is all of them in this case).
 At this point you would start over at step 1
 ```
+## BoundToOne
+''
+Get a number(N), a dividend(D) and try to get back to 1.
+If the N isn't divisible by the D,get closer to the nearest divisible by 1.
+''
