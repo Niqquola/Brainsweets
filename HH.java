@@ -1,6 +1,8 @@
 
 public class HH {
-	public static int[] sequence={1};
+	//add sequence to check here
+	public static int[] sequence={5, 3, 0, 2, 6, 2, 0, 7, 2, 5};
+	
 	public static int _N=0;
 	public static void main(String[] args) {
 		System.out.println(HH(sequence) ? "TRUE" : "FALSE");
@@ -96,7 +98,6 @@ public class HH {
 	private static int[] subN(int[] seq,int n){
 		int[] tmpseq=new int[seq.length];
 		for (int i = 0; i < seq.length; i++) {
-			
 			tmpseq[i]= i<=n-1 ? seq[i]-1 : seq[i];
 		}
 		return tmpseq;
